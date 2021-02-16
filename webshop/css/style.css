@@ -260,7 +260,11 @@ html,body{
     width: 600px;
 }
 
-i{
+#termekkosar i{
+    color: #fff;
+}
+
+.termekkosar i{
     color: #fff;
 }
 
