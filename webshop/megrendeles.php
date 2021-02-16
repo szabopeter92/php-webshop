@@ -100,7 +100,7 @@
                         $con = mysqli_connect(host,user,pwd,dbname);
                         mysqli_query($con, "SET NAMES utf8");
 
-                        $sql = "INSERT INTO vevok(nev,email,cim,telefon,pw,szcim,user) VALUES('$nev', '$email', '$szcim', '$telefon', '', '$szcim', '$user')";
+                        $sql = "INSERT INTO vevok(nev,email,cim,telefon,pw,szcim,felh) VALUES('$nev', '$email', '$szcim', '$telefon', '', '$szcim', '$user')";
 
                         mysqli_query($con, $sql);
 
